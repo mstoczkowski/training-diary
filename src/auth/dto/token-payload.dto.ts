@@ -1,3 +1,5 @@
-export interface TokenPayloadDto {
+class TokenPayloadDto {
   userId: number;
 }
+
+export default TokenPayloadDto;

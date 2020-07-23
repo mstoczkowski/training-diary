@@ -2,8 +2,8 @@ import { InjectRepository } from "@nestjs/typeorm";
 import Exercise from "./exercise.entity";
 import { Repository } from "typeorm";
 import { HttpException, HttpStatus } from "@nestjs/common";
-import { CreateExerciseDto } from "./dto/createExercise.dto";
-import { UpdateExerciseDto } from "./dto/updateExercise.dto";
+import CreateExerciseDto from "./dto/create-exercise.dto";
+import UpdateExerciseDto from "./dto/update-exercise.dto";
 
 class ExercisesService {
   constructor(
