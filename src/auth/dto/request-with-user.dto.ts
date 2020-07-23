@@ -1,6 +1,8 @@
 import { Request } from "express";
 import User from "../../users/user.entity";
 
-export interface RequestWithUserDto extends Request {
+interface RequestWithUserDto extends Request {
   user: User;
 }
+
+export default RequestWithUserDto;

@@ -9,8 +9,8 @@ import {
   UseGuards,
 } from "@nestjs/common";
 import AuthService from "./auth.service";
-import { RegisterUserDto } from "./dto/register-user.dto";
-import { RequestWithUserDto } from "./dto/request-with-user.dto";
+import RegisterUserDto from "./dto/register-user.dto";
+import RequestWithUserDto from "./dto/request-with-user.dto";
 import User from "../users/user.entity";
 import AuthLocalGuard from "./auth-local.guard";
 import { Response } from "express";
